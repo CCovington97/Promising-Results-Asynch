@@ -1,3 +1,4 @@
+// Promises .then Chaining
 // slowMath.add(1, 1)
 // .then((sum) => {
 //     console.log(sum)
@@ -30,6 +31,7 @@
 //     console.log(error)
 // })
 
+// Async/Await
 async function doMath() {
     try {
         results = await slowMath.add(1, 1);
