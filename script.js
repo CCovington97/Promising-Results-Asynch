@@ -1,33 +1,42 @@
 // Promises .then Chaining
 // slowMath.add(1, 1)
-// .then((sum) => {
-//     console.log(sum)
-//     return slowMath.multiply(sum, 2)
-// }).then((product) => {
-//     console.log(product)
-//     return slowMath.divide(product, 4)
-// }).then((quotient) => {
-//     console.log(quotient)
-//     return slowMath.subtract(quotient, 3)
-// }).then((difference) => {
-//     console.log(difference)
-//     return slowMath.add(difference, 98)
-// }).then((sum2) => {
-//     console.log(sum2)
-//     return slowMath.remainder(sum2, 2)
-// }).then((remainder) => {
-//     console.log(remainder)
-//     return slowMath.multiply(remainder, 50)
-// }).then((product2) => {
-//     console.log(product2)
-//     return slowMath.remainder(product2, 40)
-// }).then((remainder2) => {
-//     console.log(remainder2)
-//     return slowMath.add(remainder2, 32)
-// }).then((sum3) => {
-//     console.log(sum3)
-//     console.log(`The final result is ${sum3}.`)
-// }).catch((error) => {
+// .then((result) => {
+//     console.log(result)
+//     return slowMath.multiply(result, 2)
+// })
+// .then((result) => {
+//     console.log(result)
+//     return slowMath.divide(result, 4)
+// })
+// .then((result) => {
+//     console.log(result)
+//     return slowMath.subtract(result, 3)
+// })
+// .then((result) => {
+//     console.log(result)
+//     return slowMath.add(result, 98)
+// })
+// .then((result) => {
+//     console.log(result)
+//     return slowMath.remainder(result, 2)
+// })
+// .then((result) => {
+//     console.log(result)
+//     return slowMath.multiply(result, 50)
+// })
+// .then((result) => {
+//     console.log(result)
+//     return slowMath.remainder(result, 40)
+// })
+// .then((result) => {
+//     console.log(result)
+//     return slowMath.add(result, 32)
+// })
+// .then((result) => {
+//     console.log(result)
+//     console.log(`The final result is ${result}.`)
+// })
+// .catch((error) => {
 //     console.log(error)
 // })
 
